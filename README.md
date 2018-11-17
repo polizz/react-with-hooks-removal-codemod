@@ -2,13 +2,13 @@
 
 This transform upgrades files based on [react-with-hooks](https://github.com/yesmeck/react-with-hooks) up to React 16.7.0 when it is released.
 
-### Clone
+### Install
 ```
-git clone https://github.com/polizz/react-with-hooks-removal-codemod
+npm install @polizz/react-with-hooks-removal-codemod -D
+yarn add @polizz/react-with-hooks-removal-codemod -D
 ```
 
 ### Run
-```
-yarn test
-npm run test
-```
+```removeWithHooksPolyfill <directory to scan> <options>```
+
+```<options>``` are any valid jscodeshift options, i.e. "--extensions jsx"

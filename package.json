@@ -1,10 +1,23 @@
 {
-  "name": "codemod",
-  "version": "1.0.0",
+  "name": "react-with-hooks-removal-codemod",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/polizz/react-with-hooks-removal-codemod.git"
+  },
+  "bugs": {
+    "url": "https://github.com/polizz/react-with-hooks-removal-codemod/issues"
+  },
+  "bin": {
+    "removeWithHooksPolyfill": "bin/remove-with-hooks-polyfill.js"
+  },
+  "homepage": "https://github.com/polizz/react-with-hooks-removal-codemod#readme",
+  "version": "0.0.1",
   "description": "codemod test for react hooks polyfills",
-  "main": "index.js",
   "scripts": {
-    "test": "jscodeshift src --extensions jsx -t react-hooks-transform.js"
+    "test": "jscodeshift src --extensions jsx -t src/react-hooks-transform.js"
   },
   "author": "polizz",
   "license": "MIT",
