@@ -2,10 +2,9 @@
 
 This transform upgrades files based on [react-with-hooks](https://github.com/yesmeck/react-with-hooks) up to React 16.7.0 when it is released.
 
-### Install
+### Clone
 ```
-yarn add react-with-hooks-removal-codemod -D
-npm i react-with-hooks-removal-codemod -D
+git clone https://github.com/polizz/react-with-hooks-removal-codemod
 ```
 
 ### Run
