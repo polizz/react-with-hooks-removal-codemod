@@ -1,0 +1,14 @@
+{
+  "name": "codemod",
+  "version": "1.0.0",
+  "description": "codemod test for react hooks polyfills",
+  "main": "index.js",
+  "scripts": {
+    "test": "jscodeshift src --extensions jsx -t react-hooks-transform.js"
+  },
+  "author": "polizz",
+  "license": "MIT",
+  "devDependencies": {
+    "jscodeshift": "^0.5.1"
+  }
+}
