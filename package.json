@@ -1,5 +1,5 @@
 {
-  "name": "react-with-hooks-removal-codemod",
+  "name": "@polizz/react-with-hooks-removal-codemod",
   "publishConfig": {
     "access": "public"
   },
